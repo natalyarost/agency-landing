@@ -727,6 +727,7 @@ a {
 
 @media (max-width: 1024px) {
   .container {
+    width: 100%;
     padding: 0 32px;
   }
 
@@ -817,8 +818,9 @@ a {
   }
 
   .meet__img_left {
-    max-width: 700px;
-    height: 460px;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
   }
 
   .meet__box_right {
@@ -1011,11 +1013,6 @@ a {
 
   .meet__heading_right {
     font-size: 24px;
-  }
-
-  .meet__item_img {
-    width: 150px;
-    height: 180px;
   }
 
   .subscribe__input,
