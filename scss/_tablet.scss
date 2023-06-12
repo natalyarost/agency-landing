@@ -1,0 +1,138 @@
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 32px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top__content,
+    .services, 
+    .products, 
+    .meet,
+    .subscribe,
+    .contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    
+    .top__content_flex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+    
+    .top__content_left,
+    .top__content_right {
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .top__content_text {
+        height: auto;
+    }
+
+    .services__content {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .services__content_left,
+    .services__content_right {
+        align-items: center;
+        margin: 0 auto;
+        max-width: fit-content;
+    }
+
+    .services__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    }
+
+    .products__links {
+        gap: 32px;
+    }
+
+    .products__link {
+        font-size: 18px;
+    }
+
+    .products__image {
+        justify-content: center;
+    }
+
+    .products__img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .meet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .meet__box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .meet__box_left {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .meet__img_left {
+        max-width: 700px;
+        height: 460px;
+    }
+
+    .meet__box_right {
+        align-items: center;
+    }
+
+    .meet__social {
+        justify-content: center;
+    }
+
+    .meet__items {
+        justify-content: center;
+    }
+
+    .meet__item_img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .meet__name {
+        width: 100%;
+    }
+
+    .subscribe__heading {
+        line-height: 60px;
+    }
+
+    .contact__box {
+        align-items: center;
+    }
+
+    .contact__flexbox {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .contact__form_right {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}

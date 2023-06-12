@@ -1,0 +1,235 @@
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+
+  .nav {
+    height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .menu__burger {
+    display: block;
+    background: url(../img/menu/menu_burger.png) no-repeat;
+    background-position: center;
+    background-size: 36px;
+    height: 36px;
+    width: 38px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .menu__burger:hover {
+    opacity: 0.8;
+  }
+
+  .menu__burger.active {
+    display: block;
+    background: url(../img//menu/close.png) no-repeat;
+    background-position: center;
+    background-size: 36px;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 14;
+  }
+
+  .menu__burger.active:hover {
+    opacity: 0.8;
+  }
+
+  .menu__link {
+    padding: 30px;
+  }
+
+  .menu__link_active {
+    background: none;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: -200%;
+    transition: left .5s;
+    width: 100%;
+    background-color: black;
+    padding: 60px 0;
+    z-index: 11;
+  }
+
+  .menu.active {
+    left: 0;
+  }
+
+  .menu__item {
+    line-height: 0;
+  }
+
+  .top__content,
+  .services, 
+  .products, 
+  .meet,
+  .subscribe,
+  .contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .top__content_left,
+  .top__content_right,
+  .top__content_title,
+  .top__content_text {
+    width: 100%;
+  }
+  
+  .top__content_left {
+    gap: 32px;
+    align-items: center;
+  }
+  
+  .top__content_right {
+    margin-top: 50px;
+  }
+  
+  .top__content_title {
+    font-size: 36px;
+    line-height: 50px;
+    height: 70px;
+  }
+  
+  .services__content {
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+  }
+  
+  .services__content_heading,
+  .services__content_text,
+  .services__content_right,
+  .services__block {
+    width: 100%;
+  }
+  
+  .services__content_left {
+    align-items: center;
+  }
+  
+  .services__content_heading,
+  .products__heading,
+  .meet__heading,
+  .subscribe__heading,
+  .contact__box_heading {
+    font-size: 32px;
+  }
+  
+  .services__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .products__links {
+    flex-wrap: wrap;
+  }
+  
+  .meet__heading_right {
+    font-size: 24px;
+  }
+  
+  .meet__item_img {
+    width: 150px;
+    height: 180px;
+  }
+  
+  .subscribe__input,
+  .subscribe__button {
+    height: 60px;
+  }
+  
+  .contacts__flexbox {
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  .contacts__name,
+  .contacts__mail,
+  .contacts__message,
+  .contacts__button,
+  .subscribe__input {
+    width: 100%;
+  }
+  
+  .contact__form_right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .contacts__heading,
+  .contacts__address,
+  .contacts__address_mail,
+  .contacts__address_tel {
+    padding: 0;
+    width: 100%;
+  }
+  
+  .contact__form_left {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .footer__content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 32px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 410px) {
+  .top__content_title {
+    font-size: 24px;
+    height: 50px;
+  }
+  
+  .services__content_heading,
+  .products__heading,
+  .meet__heading,
+  .subscribe__heading,
+  .contact__box_heading {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  
+  .products__link {
+    font-size: 16px;
+  }
+  
+  .products__item {
+    width: 100%;
+    height: auto;
+  }
+  
+  .meet__img_left {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .meet__heading_right {
+    font-size: 20px;
+  }
+}
