@@ -21,7 +21,8 @@
 
   .menu__burger {
     display: block;
-    background-image: url("..img/menu/menu_burger.png") no-repeat;
+    background-image: url("../img/menu/menu_burger.png");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: 36px;
     height: 36px;
@@ -36,7 +37,8 @@
 
   .menu__burger.active {
     display: block;
-    background-image: url("../img//menu/close.png") no-repeat;
+    background-image: url("../img//menu/close.png");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: 36px;
     height: 36px;
